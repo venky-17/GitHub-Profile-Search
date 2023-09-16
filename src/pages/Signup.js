@@ -55,7 +55,7 @@ const Signup = () => {
         <Col lg={6} className="offset-lg-3 mt-5">
           <Card>
             <Form onSubmit={handleSubmit}>
-              <CardHeader className="">SignUp here</CardHeader>
+              <CardHeader className="">SignUp </CardHeader>
               <CardBody>
                 <FormGroup row>
                   <Label for="email" sm={3}>
@@ -66,7 +66,7 @@ const Signup = () => {
                       type="email"
                       name="email"
                       id="email"
-                      placeholder="provide your email"
+                      placeholder="Enter your email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
@@ -81,7 +81,7 @@ const Signup = () => {
                       type="password"
                       name="password"
                       id="password"
-                      placeholder="your password here"
+                      placeholder="Enter a new password"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                     />
