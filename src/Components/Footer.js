@@ -8,7 +8,7 @@ const Footer = () => {
     tag="footer"
     className="text-center bg-info text-white fixed-bottom text-uppercase p-3"
     >
- GitHub Profiles Search App with Firebase
+ GitHub Profiles Search App with Firebase.
     </Container>
  )
 }
